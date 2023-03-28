@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { OlaMundoComponent } from './ola-mundo/ola-mundo.component';
 import { ContadorComponent } from './contador/contador.component';
 import { StringInterpolationComponent } from './string-interpolation/string-interpolation.component';
+import { PropertyBindingComponent } from './property-binding/property-binding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     OlaMundoComponent,
     ContadorComponent,
-    StringInterpolationComponent
+    StringInterpolationComponent,
+    PropertyBindingComponent
   ],
   imports: [
     BrowserModule
